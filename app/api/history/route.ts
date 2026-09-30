@@ -38,3 +38,4 @@ export const GET = async (req: NextRequest) => {
     return NextResponse.json({ error: "Failed to fetch history" }, { status: 500 });
   }
 };
+export const dynamic = "force-dynamic";
